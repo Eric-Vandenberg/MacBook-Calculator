@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="animate" class="macbook"></div>
+	<div class="container">
+
+		<div class="middle">
+			<button type ="button" id="add" onclick="add_operator('+')">+</button>
+			<button type ="button" id="subtract" onclick="add_operator('-')">-</button>
+			<button type ="button" id="multiply" onclick="add_operator('*')">&#215</button>
+			<button type ="button" id="divide" onclick="add_operator('/')">&#247</button>
+			<button type="button" id="refresh" onclick="reset_calculator()">clear</button>
+		</div>
+
+
+		<div class="screen">
+			
+			<div class="left_side">
+				<button class="numb" type="button" onclick="add_number('1')">1</button>
+				<button class="numb" type="button" onclick="add_number('2')">2</button>
+				<button class="numb" type="button" onclick="add_number('3')">3</button><br>
+				<button class="numb" type="button" onclick="add_number('4')">4</button>
+				<button class="numb" type="button" onclick="add_number('5')">5</button>
+				<button class="numb" type="button" onclick="add_number('6')">6</button><br>
+				<button class="numb_shine" type="button" onclick="add_number('7')">7</button>
+				<button class="numb" type="button" onclick="add_number('8')">8</button>
+				<button class="numb_shine" type="button" onclick="add_number('9')">9</button><br>
+						
+			</div>
+			<input type="textarea cols=80 rows=1 wrap='off'" id="input" placeholder="input">
+			<button class="numb" id="special" type="button" onclick="add_number('0')">0</button>
+			<input type="textarea cols=80 rows=1 wrap='off'" id="result" placeholder="result">
+			
+		</div>
+		
+		<div class="right_side">
+			<button type="button" id="ce" onclick="clear_ce()">ce</button>
+			<button type="button" id="neg" onclick="add_neg('-')">&plusmn;</button>
+			<button type="button" id="decimal" onclick="add_number('.')">.</button>
+			<button type="button" id="calc" onclick="process_equation()">=</button>
+		</div>
+
+
+		
+		
+
+		<button type="button" id="powerflip" onclick="powerToggle()"></button>
+
+
+	</div>
+	
+	<script src="script.js"></script>
+</body>
+</html>
