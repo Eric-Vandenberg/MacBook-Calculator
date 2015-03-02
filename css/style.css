@@ -1,0 +1,247 @@
+body {
+	font-family: 'Lato', sans-serif, 'Open Sans Condensed';
+	padding: 0px;
+	margin: 0px;
+    font: #fff;
+}
+
+.container {
+    display: block;
+	width: 573px;
+	height: 400px;
+	position: absolute;
+    z-index: 5;
+	border: 2px solid transparent;	
+	background: transparent;
+    left: 30%;
+    top: 25%;
+    border-radius: 18px 18px 0px 0px;
+    padding: 30px 0px 0px 23px;
+}
+
+
+
+.screen {
+	width: 360px;
+	height: 340px;
+	margin: 0 auto;
+	display: inline-block;	
+	background-color: transparent;
+    border: 2px solid transparent;
+    padding: 0px 3px 0px 0px;
+}
+
+input {
+    border-style: none;
+    background-color: transparent;
+    color: #33FF00;
+    text-shadow: 1px 1px 5px #6a6969;
+    height: 50px;
+    width: 120px;
+    font-size: 3em;
+    overflow: scroll;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+input#result {
+    color: #33FF00;
+}
+
+.left_side {
+	width: 355px;
+	height: 255px;
+	border: 2px solid transparent;
+	display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    margin: 5px 2px 0px 0px;
+    z-index: 6;
+}
+.left_side button, .middle button, .right_side button {
+	height: 60px;
+	width: 60px;
+	color: #fff;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(150, 150, 150, .7);
+}
+.middle {
+	width: 79px;
+    height: 325px;
+	border: 2px solid transparent;
+	display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 10px 3px 5px 3px;
+}
+
+.right_side {
+	width: 79px;
+	height: 325px;
+	border: 2px solid transparent;
+	display: inline-block;
+	vertical-align: top;
+    text-align: center;
+    margin: 10px 3px 5px 0px;
+}
+
+#calc {
+	height: 125px;
+}
+
+.macbook {
+    background-color: transparent;
+    background-image: linear-gradient(70deg, transparent 67%, hsla(0,0%,100%,.05) 67%, hsla(0,0%,100%,.025)),
+                      linear-gradient(#ddd 36px, transparent 36px),
+                      linear-gradient(#132d4e, #4f7d90);
+    border-radius: 18px 18px 0 0;
+    box-shadow: inset 0 1px 1px 4px #000,
+                inset 0 0 0 28px #111,
+                0 0 0 4px #ccc,
+                0 0 1px 4px rgba(0, 0, 0, .75);
+    height: 400px;
+    display: block;
+    left: 30%;
+    margin: ;
+    position: absolute;
+    top: 25%;
+    width: 600px;
+}
+.macbook:after {
+    background-color: #ddd;
+    background-image: linear-gradient(left, hsla(0,0%,0%,.3), hsla(0,0%,100%,.4) 2%, hsla(0,0%,100%,.1) 5%, hsla(0,0%,0%,.2) 95%, hsla(0,0%,100%,.2) 98%, hsla(0,0%,0%,.4));
+    border-bottom: 7px solid hsla(0,0%,40%,.75);
+    border-radius: 0 0 15px 15px;
+    content: '';
+    height: 33px;
+    left: -88px;
+    position: absolute;
+    right: -88px;
+    top: 100%;
+}
+.macbook:before {
+    background-color: #222;
+    border-radius: 100%;
+    box-shadow: inset 1px 1px 0 hsla(0,0%,100%,.1);
+    content: '';
+    height: 12px;
+    left: 50%;
+    margin-left: -6px;
+    margin-top: -2px;
+    position: absolute;
+    top: 14px;
+    width: 12px;
+    z-index: 1;
+}
+
+.on {
+    border-style: none;
+    display: block;
+    clear: left;
+    margin-left: 222px;
+    border-radius: 0px 0px 10px 10px;
+    width: 106px;
+    height: 15px;
+    background: #ddd;
+    background: -webkit-linear-gradient(left, #a0a0a0 0%, #c0c0c0 6%, #a8a8a8 14%, #a8a8a8 86%, #c0c0c0 94%, #a0a0a0 100%);
+    background: -moz-linear-gradient(left, #a0a0a0 0%, #c0c0c0 6%, #a8a8a8 14%, #a8a8a8 86%, #c0c0c0 94%, #a0a0a0 100%);
+    background: linear-gradient(to right, #a0a0a0 0%, #c0c0c0 6%, #a8a8a8 14%, #a8a8a8 86%, #c0c0c0 94%, #a0a0a0 100%);
+    border-top: 1px solid #ddd;
+    margin-top: 24px;
+}
+.off {
+    border-style: none;
+    display: block;
+    clear: left;
+    margin-left: 222px;
+    border-radius: 0px 0px 10px 10px;
+    width: 106px;
+    height: 15px;
+    background: #ddd;
+    background: -webkit-linear-gradient(left, #a0a0a0 0%, #a8a8a8 6%, #c0c0c0 14%, #c0c0c0 86%, #a8a8a8 94%, #a0a0a0 100%);
+    background: -moz-linear-gradient(left, #a0a0a0 0%, #a8a8a8 6%, #c0c0c0 14%, #c0c0c0 86%, #a8a8a8 94%, #a0a0a0 100%);
+    background: linear-gradient(to right, #a0a0a0 0%, #a8a8a8 6%, #c0c0c0 14%, #c0c0c0 86%, #a8a8a8 94%, #a0a0a0 100%);
+    border-top: 1px solid #ddd;
+    margin-top: 24px;
+    text-shadow: 0px 0px 6px #6a6969;
+}
+.fa {
+    color: #ddd;
+    vertical-align: top;
+}
+.fa:hover {
+    color: #fff;
+    text-shadow: 0px -1px 15px #33FF00;
+}
+
+button {
+    margin-bottom: 5px;
+    border-radius: 9% / 9%;
+}
+
+#result {
+    text-align: right;
+    float: right;
+    margin-top: 12px;
+}
+#input {
+    clear: both;
+    vertical-align: top;
+    margin-top: 12px;
+}
+.left_side button {
+    height: 75px;
+    width: 100px;
+    margin: 3px 7px 3px 7px;
+}
+
+#special {
+    height: 75px;
+    width: 100px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(150, 150, 150, .8);
+    position: absolute;
+    left: 248px;
+    top: 285px;
+}
+
+.blackdrop {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 5; 
+        background: black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

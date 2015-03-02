@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    
 	<link href='http://fonts.googleapis.com/css?family=Lato:100|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<div id="animate" class="macbook"></div>
-	<div class="container">
+	<div id="hideMe" class="blackout"></div>
+	<div id="contains" class="container">
 
 		<div class="middle">
 			<button type ="button" id="add" onclick="add_operator('+')">+</button>
@@ -26,9 +30,9 @@
 				<button class="numb" type="button" onclick="add_number('4')">4</button>
 				<button class="numb" type="button" onclick="add_number('5')">5</button>
 				<button class="numb" type="button" onclick="add_number('6')">6</button><br>
-				<button class="numb_shine" type="button" onclick="add_number('7')">7</button>
+				<button class="numb" type="button" onclick="add_number('7')">7</button>
 				<button class="numb" type="button" onclick="add_number('8')">8</button>
-				<button class="numb_shine" type="button" onclick="add_number('9')">9</button><br>
+				<button class="numb" type="button" onclick="add_number('9')">9</button><br>
 						
 			</div>
 			<input type="textarea cols=80 rows=1 wrap='off'" id="input" placeholder="input">
@@ -48,11 +52,12 @@
 		
 		
 
-		<button type="button" id="powerflip" onclick="powerToggle()"></button>
+		<button type="button" class="off" onclick="togglestyle(this)"><i class="fa fa-power-off fa-1x"></i></button>
 
 
 	</div>
 	
-	<script src="script.js"></script>
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
