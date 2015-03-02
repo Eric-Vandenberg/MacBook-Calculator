@@ -35,6 +35,6 @@
 #
 #
 #More recent changes included converting the power button to a toggle functionality
-#A small gradient toggle change occurs one each click of this toggle button
-# Future animations will include a life like visual of the calculator program fading out and the computer screen blackout
+#A small gradient toggle change occurs on each click of this toggle button
+# Future animations will include a life-like visual of the calculator program fading out and the computer screen blacking out
 
