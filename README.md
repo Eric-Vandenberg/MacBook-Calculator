@@ -1,6 +1,6 @@
 # MacBook-Calculator
-
 #  This is a free open-sourced Basic GUI Calculator
+#
 #  It was designed to look like the backdrop application of a macbook pro
 #  The initial design was closely modeled after the CSS design writen by #(************)
 #  Changes made to .macbook code included: scaling up x4
@@ -28,3 +28,13 @@
 #                     Animations:
 #                         Fully animated screen that opens on the Z plane and toggles animation on the press of the button
 #                         Potentially more hover animations or onclick animations to give the calculator more of a physical feel
+#
+#March 1st, 2015 Version 0.3.0 is now complete with full basic functionality
+# The plus/minus button was programmed to take the last integer entered and make it negative
+#   Note: If a person attempts to make a number negative BEFORE entering the number they will be prompted with a quick alert tip that reads "First, enter the number you want to make negative, then press ±"
+#
+#
+#More recent changes included converting the power button to a toggle functionality
+#A small gradient toggle change occurs one each click of this toggle button
+# Future animations will include a life like visual of the calculator program fading out and the computer screen blackout
+
